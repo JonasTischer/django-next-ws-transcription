@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django-ninja>=1.4.1",
+    "django>=5.2",
+    "django-cors-headers>=4.7.0",
+    "channels>=4.2.2",
+    "channels-redis>=4.2.1",
+    "daphne>=4.1.2",
+    "deepgram-sdk>=3.10.1",
+    "python-dotenv>=1.1.0",
+]
